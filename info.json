@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "157cd5c993fe3612b34e86aca2b8c7ad300df16e",
+    "author": "Scott Chamberlain <sckott@fastmail.com>",
+    "time": "2021-05-13 18:36:50",
+    "files": 1,
+    "merge": false,
+    "message": "udpate codemeta.json\n"
+  },
+  "remote": "https://github.com/ropensci/rvertnet",
+  "pkg": "rvertnet"
+}
