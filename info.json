@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "0575beca572aff63c759678e2f27c3225fc64416",
+    "author": "Dave Slager <slager@users.noreply.github.com>",
+    "time": "2024-02-16 04:17:55",
+    "files": 2,
+    "merge": false,
+    "message": "Increment version number to 0.8.4.9000\n"
+  },
+  "repo": "https://github.com/ropensci/rvertnet",
+  "pkg": "rvertnet"
+}
