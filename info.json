@@ -1,0 +1,13 @@
+{
+  "commit": {
+    "commit": "6150378417c0495edbf000aa20808fa436912c91",
+    "author": "Dave Slager <slager@users.noreply.github.com>",
+    "time": "2024-10-19T14:55:43Z",
+    "files": 0,
+    "merge": false,
+    "message": "refresh ci\n"
+  },
+  "repo": "https://github.com/ropensci/rvertnet",
+  "pkg": "rvertnet",
+  "time": "2026-08-30T07:14:17Z"
+}

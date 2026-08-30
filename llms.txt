@@ -1,0 +1,96 @@
+# rvertnet
+
+`rvertnet` is a client for interacting with
+[VertNet.org](http://vertnet.org/).
+
+VertNet.org API docs:
+<https://github.com/VertNet/webapp/wiki/The-API-search-function>
+
+## Installation
+
+Stable CRAN version
+
+``` r
+
+install.packages("rvertnet")
+```
+
+Development version from GitHub
+
+``` r
+
+remotes::install_github("ropensci/rvertnet", build_vignettes = TRUE)
+```
+
+## [Get started](https://docs.ropensci.org/rvertnet/articles/rvertnet.html)
+
+[View vignette on ropensci
+website](https://docs.ropensci.org/rvertnet/articles/rvertnet.html)
+
+Or, view vignette locally in your web browser
+
+``` r
+
+browseVignettes("rvertnet")
+```
+
+Or, view vignette in the Rstudio help pane
+
+``` r
+
+vignette("rvertnet")
+```
+
+## Contributors
+
+- Dave Slager [@slager](https://github.com/slager)
+- Scott Chamberlain [@sckott](https://github.com/sckott)
+- Chris Ray [@Pika8tona](https://github.com/Pika8tona)
+- Vijay Barve [@vijaybarve](https://github.com/vijaybarve)
+
+## Meta
+
+- Please [report any issues or
+  bugs](https://github.com/ropensci/rvertnet/issues).
+- License: MIT
+- Get citation information for `rvertnet` in R doing
+  `citation(package = 'rvertnet')`
+- Please note that this package is released with a [Contributor Code of
+  Conduct](https://ropensci.org/code-of-conduct/). By contributing to
+  this project, you agree to abide by its terms.
+
+# Package index
+
+## All functions
+
+- [`bigsearch()`](https://docs.ropensci.org/rvertnet/reference/bigsearch.md)
+  : Request to download a large number of VertNet records.
+- [`rvertnet-defunct`](https://docs.ropensci.org/rvertnet/reference/rvertnet-defunct.md)
+  : Defunct functions in rvertnet
+- [`rvertnet-package`](https://docs.ropensci.org/rvertnet/reference/rvertnet-package.md)
+  [`rvertnet`](https://docs.ropensci.org/rvertnet/reference/rvertnet-package.md)
+  : Search VertNet archives using R
+- [`searchbyterm()`](https://docs.ropensci.org/rvertnet/reference/searchbyterm.md)
+  : Search by term
+- [`simple_dwc_terms`](https://docs.ropensci.org/rvertnet/reference/simple_dwc_terms.md)
+  : Darwin core terms
+- [`spatialsearch()`](https://docs.ropensci.org/rvertnet/reference/spatialsearch.md)
+  : Find records within some distance of a point given latitude and
+  longitude.
+- [`traitsearch()`](https://docs.ropensci.org/rvertnet/reference/traitsearch.md)
+  : Trait focused search
+- [`vert_id()`](https://docs.ropensci.org/rvertnet/reference/vert_id.md)
+  : Search by Vertnet occurrence ID
+- [`vertmap()`](https://docs.ropensci.org/rvertnet/reference/vertmap.md)
+  : Make a simple map to visualize VertNet data.
+- [`vertsearch()`](https://docs.ropensci.org/rvertnet/reference/vertsearch.md)
+  : Find records using a global full-text search of VertNet archives.
+- [`vertsummary()`](https://docs.ropensci.org/rvertnet/reference/vertsummary.md)
+  : Summarize a set of records downloaded from VertNet.
+
+# Articles
+
+### All vignettes
+
+- [Introduction to
+  rvertnet](https://docs.ropensci.org/rvertnet/articles/rvertnet.md):
